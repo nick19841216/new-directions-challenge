@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-form input, .search-form select {
+    padding: 10px;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.search-form button {
+    padding: 10px;
+    width: 15%;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.applicant {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.applicant h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.applicant p {
+    margin: 5px 0;
+}
+
+.download-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Directions Applicants</title>
+    <link rel="stylesheet" href="applicants.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Applicants</h1>
+        <div class="search-form">
+            <input type="text" id="county" placeholder="County">
+            <select id="requires_dbs">
+                <option value="1">DBS Required</option>
+                <option value="0">DBS Not Required</option>
+            </select>
+            <input type="text" id="position" placeholder="Position Applied For">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="applicants.js"></script>
+</body>
+</html>
